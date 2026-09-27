@@ -31,12 +31,13 @@ async function setup() {
            
   video.hide()                                 
   video.size(400, 400) 
-  video.volume(1)
+  video.volume(0)
   video1 = createVideo("exp.mp4")             
   video1.hide()                                 
   video1.size(400, 400) 
-  video1.volume(1)  
+  video1.volume(0)  
   vid  = createVideo("ari.mp4")  
+  vid.volume(0)
   vid.hide()
   vid.size(400,400) 
   vid.elt.loop = false                  
