@@ -65,11 +65,13 @@ function draw() {
    push()
    rotate(45) 
   image(video, -140, -40, 240, 160,0,100,0,400)
+    video.volume(0)
   pop() 
   push()
   scale(-1,1)
    rotate(45) 
   image(video, -340, 300, 240, 160,0,100,0,400)
+    video.volume(0)
   pop()     
         
   }   
@@ -140,7 +142,7 @@ function mousePressed() {
     xx = 256
 
     video.play()
-    video.volume(1)  
+    video.volume(0)  
     video1.play()                             
     c = 255                                    
   }
